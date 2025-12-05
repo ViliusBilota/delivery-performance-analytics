@@ -22,9 +22,6 @@ The dataset contains the following fields:
 
 > **Note:** Some columns such as `return_reason` and certain delivery reasons were empty in SQL, but were handled in Power BI using filters or alternative measures.
 
-> **Note on Returned/Lost Data:**  
-> Returned and lost shipments are visible in Power BI but **not in the SQL results** because the SQL table used for querying did not include those records, while Power BI loaded the full raw dataset. This was identified during data profiling.
-
 ---
 
 ## 📊 SQL Queries
